@@ -1,0 +1,23 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress runner": "cypress open"
+  },
+  "author": "papas",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.0.0",
+    "cypress-cucumber-preprocessor": "^4.3.0",
+    "cypress-dark": "^1.8.3"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "dependencies": {
+    "cypress-downloadfile": "^1.2.1"
+  }
+}

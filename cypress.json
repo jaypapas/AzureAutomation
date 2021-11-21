@@ -1,0 +1,6 @@
+{
+    "env": {
+        "QA": "https://www.google.com",
+        "SIT": "https://www.yahoo.com"
+    }
+}
