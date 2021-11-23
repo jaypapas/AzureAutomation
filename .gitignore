@@ -1,2 +1,4 @@
 node_modules
-examples
+debug.log
+**/mocha
+**/mochawesome-report
