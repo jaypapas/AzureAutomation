@@ -1,0 +1,111 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-11-23T00:59:54.018Z",
+    "end": "2021-11-23T01:00:00.560Z",
+    "duration": 6542,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "fdc249a8-f7b8-4753-88c6-fd7ba54f1753",
+      "title": "",
+      "fullFile": "cypress/integration/Test.spec.js",
+      "file": "cypress/integration/Test.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "9558d46f-26fa-463f-b7bd-c75eacb2778a",
+          "title": "Google test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Simple search on google website",
+              "fullTitle": "Google test Simple search on google website",
+              "timedOut": null,
+              "duration": 4817,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('http://www.google.com');\ncy.title().should('contain', 'Google');\ncy.get('.gLFyf').type('ps5');\ncy.get('.FPdoLc > center > .gNO89b').type('{enter}', {\n  force: true\n});\ncy.get('.hdtb-msel').should('be.visible');",
+              "err": {
+                "message": "CypressError: Timed out retrying after 4000ms: `cy.type()` failed because this element:\n\n`<input class=\"gLFyf gsfi\" jsaction=\"paste:puy29d;\" maxlength=\"2048\" name=\"q\" type=\"text\" aria-autocomplete=\"both\" aria-haspopup=\"false\" autocapitalize=\"off\" autocomplete=\"off\" autocorrect=\"off\" autofocus=\"\" role=\"combobox\" spellcheck=\"false\" title=\"Search\" value=\"\" aria-label=\"Search\" data-ved=\"0ahUKEwijpvSTpK30AhUJ3hoKHVP9CycQ39UDCAY\">`\n\nis being covered by another element:\n\n`<li class=\"gowsYd DdTYud\">Measure...</li>`\n\nFix this problem, or use {force: true} to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with",
+                "estack": "CypressError: Timed out retrying after 4000ms: `cy.type()` failed because this element:\n\n`<input class=\"gLFyf gsfi\" jsaction=\"paste:puy29d;\" maxlength=\"2048\" name=\"q\" type=\"text\" aria-autocomplete=\"both\" aria-haspopup=\"false\" autocapitalize=\"off\" autocomplete=\"off\" autocorrect=\"off\" autofocus=\"\" role=\"combobox\" spellcheck=\"false\" title=\"Search\" value=\"\" aria-label=\"Search\" data-ved=\"0ahUKEwijpvSTpK30AhUJ3hoKHVP9CycQ39UDCAY\">`\n\nis being covered by another element:\n\n`<li class=\"gowsYd DdTYud\">Measure...</li>`\n\nFix this problem, or use {force: true} to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with\n    at $Cy.ensureDescendents (https://www.google.com/__cypress/runner/cypress_runner.js:162833:87)\n    at ensureDescendents (https://www.google.com/__cypress/runner/cypress_runner.js:149605:8)\n    at ensureDescendentsAndScroll (https://www.google.com/__cypress/runner/cypress_runner.js:149612:14)\n    at ensureElIsNotCovered (https://www.google.com/__cypress/runner/cypress_runner.js:149746:5)\n    at runAllChecks (https://www.google.com/__cypress/runner/cypress_runner.js:149936:52)\n    at retryActionability (https://www.google.com/__cypress/runner/cypress_runner.js:149960:16)\n    at tryCatcher (https://www.google.com/__cypress/runner/cypress_runner.js:13212:23)\n    at Function.Promise.attempt.Promise.try (https://www.google.com/__cypress/runner/cypress_runner.js:10486:29)\n    at tryFn (https://www.google.com/__cypress/runner/cypress_runner.js:167495:61)\n    at whenStable (https://www.google.com/__cypress/runner/cypress_runner.js:167534:14)\n    at https://www.google.com/__cypress/runner/cypress_runner.js:167021:18\n    at tryCatcher (https://www.google.com/__cypress/runner/cypress_runner.js:13212:23)\n    at Promise._settlePromiseFromHandler (https://www.google.com/__cypress/runner/cypress_runner.js:11147:31)\n    at Promise._settlePromise (https://www.google.com/__cypress/runner/cypress_runner.js:11204:18)\n    at Promise._settlePromise0 (https://www.google.com/__cypress/runner/cypress_runner.js:11249:10)\n    at Promise._settlePromises (https://www.google.com/__cypress/runner/cypress_runner.js:11329:18)\nFrom Your Spec Code:\n    at Context.eval (https://www.google.com/__cypress/tests?p=cypress/integration/Test.spec.js:103:22)",
+                "diff": null
+              },
+              "uuid": "704616f0-daa8-4baf-9ed7-edb6b718f21b",
+              "parentUUID": "9558d46f-26fa-463f-b7bd-c75eacb2778a",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "704616f0-daa8-4baf-9ed7-edb6b718f21b"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 4817,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}

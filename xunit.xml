@@ -1,0 +1,16 @@
+<testsuite name="Mocha Tests" tests="14" failures="0" errors="0" skipped="0" timestamp="Mon, 22 Nov 2021 22:07:40 GMT" time="31.83">
+<testcase classname="Actions" name=".type() - type into a DOM element" time="5.507"/>
+<testcase classname="Actions" name=".focus() - focus on a DOM element" time="0.92"/>
+<testcase classname="Actions" name=".blur() - blur off a DOM element" time="1.427"/>
+<testcase classname="Actions" name=".clear() - clears an input or textarea element" time="2.126"/>
+<testcase classname="Actions" name=".submit() - submit a form" time="1.05"/>
+<testcase classname="Actions" name=".click() - click on a DOM element" time="5.943"/>
+<testcase classname="Actions" name=".dblclick() - double click on a DOM element" time="0.699"/>
+<testcase classname="Actions" name=".rightclick() - right click on a DOM element" time="0.782"/>
+<testcase classname="Actions" name=".check() - check a checkbox or radio element" time="2.746"/>
+<testcase classname="Actions" name=".uncheck() - uncheck a checkbox element" time="2.761"/>
+<testcase classname="Actions" name=".select() - select an option in a &#x3C;select&#x3E; element" time="2.023"/>
+<testcase classname="Actions" name=".scrollIntoView() - scroll an element into view" time="0.448"/>
+<testcase classname="Actions" name=".trigger() - trigger an event on a DOM element" time="0.576"/>
+<testcase classname="Actions" name="cy.scrollTo() - scroll the window or element to a position" time="2.527"/>
+</testsuite>

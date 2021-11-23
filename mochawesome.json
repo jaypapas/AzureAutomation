@@ -1,0 +1,400 @@
+{
+  "stats": {
+    "suites": 5,
+    "tests": 8,
+    "passes": 7,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-11-23T00:59:31.197Z",
+    "end": "2021-11-23T01:00:00.560Z",
+    "duration": 13961,
+    "testsRegistered": 8,
+    "passPercent": 87.5,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "cced8e16-e7a1-46a7-8dc5-761b8d35c478",
+      "title": "",
+      "fullFile": "cypress/integration/ApiTesting.js",
+      "file": "cypress/integration/ApiTesting.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "88345ee9-3e4d-492f-a0d9-22ed505594c5",
+          "title": "Api Testing",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "GET request test",
+              "fullTitle": "Api Testing GET request test",
+              "timedOut": null,
+              "duration": 320,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.request('GET', 'https://reqres.in/api/users?page=2').then(response => {\n  expect(response).to.not.have.property('status', 201);\n  expect(response).to.have.property('status', 200);\n});",
+              "err": {},
+              "uuid": "a73a308f-b026-4da7-b6b6-3f906014e106",
+              "parentUUID": "88345ee9-3e4d-492f-a0d9-22ed505594c5",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "a73a308f-b026-4da7-b6b6-3f906014e106"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 320,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "a1d0e6e1-bf67-42c0-bfbc-56e12b7ae47f",
+      "title": "",
+      "fullFile": "cypress/integration/EnvironmentThings/env.js",
+      "file": "cypress/integration/EnvironmentThings/env.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "60f4f1f2-c0f0-42ac-a3ce-cc20cb484beb",
+          "title": "Environment Tests",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Test 1",
+              "fullTitle": "Environment Tests Test 1",
+              "timedOut": null,
+              "duration": 816,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.log('Tesing..');",
+              "err": {},
+              "uuid": "3e2aa6d1-1456-4f03-aba2-3ffe03258a16",
+              "parentUUID": "60f4f1f2-c0f0-42ac-a3ce-cc20cb484beb",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test 2",
+              "fullTitle": "Environment Tests Test 2",
+              "timedOut": null,
+              "duration": 1733,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.log('Tesing..');",
+              "err": {},
+              "uuid": "e6f35209-d0a8-4035-b030-7cde450f6735",
+              "parentUUID": "60f4f1f2-c0f0-42ac-a3ce-cc20cb484beb",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test 3",
+              "fullTitle": "Environment Tests Test 3",
+              "timedOut": null,
+              "duration": 1327,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.log('Tesing..');",
+              "err": {},
+              "uuid": "1a5f5efc-65a6-411e-965f-3531925d0865",
+              "parentUUID": "60f4f1f2-c0f0-42ac-a3ce-cc20cb484beb",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test 4",
+              "fullTitle": "Environment Tests Test 4",
+              "timedOut": null,
+              "duration": 876,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.log('Tesing..');",
+              "err": {},
+              "uuid": "beb49e13-50bf-46ce-8aa7-ab470fd0fc95",
+              "parentUUID": "60f4f1f2-c0f0-42ac-a3ce-cc20cb484beb",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "3e2aa6d1-1456-4f03-aba2-3ffe03258a16",
+            "e6f35209-d0a8-4035-b030-7cde450f6735",
+            "1a5f5efc-65a6-411e-965f-3531925d0865",
+            "beb49e13-50bf-46ce-8aa7-ab470fd0fc95"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 4752,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "0632085b-924c-4cce-81f2-d1dbea4b6467",
+      "title": "",
+      "fullFile": "cypress/integration/MultipleElementSelect.js",
+      "file": "cypress/integration/MultipleElementSelect.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "93462a42-bc62-4366-af4b-d2503470a37f",
+          "title": "Test multiple element select",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Test",
+              "fullTitle": "Test multiple element select Test",
+              "timedOut": null,
+              "duration": 2738,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://www.saucedemo.com/');\ncy.get('#user-name').type('standard_user');\ncy.get('#password').type('secret_sauce');\ncy.get('[type=submit]').click();\ncy.get('.inventory_item_label').each(function ($el, index, $list) {\n  cy.get($el).click();\n});",
+              "err": {},
+              "uuid": "35cfc708-54e3-4b2a-8655-3b7d8302026c",
+              "parentUUID": "93462a42-bc62-4366-af4b-d2503470a37f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "35cfc708-54e3-4b2a-8655-3b7d8302026c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2738,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "640847ae-18ff-4dd2-84bd-25231aa7b72b",
+      "title": "",
+      "fullFile": "cypress/integration/NewTest.js",
+      "file": "cypress/integration/NewTest.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "d7f09d55-f223-4d9d-85df-c2b49b28989c",
+          "title": "Get Text from element",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "get the text",
+              "fullTitle": "Get Text from element get the text",
+              "timedOut": null,
+              "duration": 1334,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://the-internet.herokuapp.com/javascript_alerts');\ncy.get('h3').then($pageTitle => {\n  const pageTitle = $pageTitle.text();\n  cy.log(pageTitle);\n  expect(pageTitle).to.match(/Java/);\n});",
+              "err": {},
+              "uuid": "5a4dd3c2-0426-4e46-afc9-a7efb62487e4",
+              "parentUUID": "d7f09d55-f223-4d9d-85df-c2b49b28989c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "5a4dd3c2-0426-4e46-afc9-a7efb62487e4"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1334,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "fdc249a8-f7b8-4753-88c6-fd7ba54f1753",
+      "title": "",
+      "fullFile": "cypress/integration/Test.spec.js",
+      "file": "cypress/integration/Test.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "9558d46f-26fa-463f-b7bd-c75eacb2778a",
+          "title": "Google test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Simple search on google website",
+              "fullTitle": "Google test Simple search on google website",
+              "timedOut": null,
+              "duration": 4817,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('http://www.google.com');\ncy.title().should('contain', 'Google');\ncy.get('.gLFyf').type('ps5');\ncy.get('.FPdoLc > center > .gNO89b').type('{enter}', {\n  force: true\n});\ncy.get('.hdtb-msel').should('be.visible');",
+              "err": {
+                "message": "CypressError: Timed out retrying after 4000ms: `cy.type()` failed because this element:\n\n`<input class=\"gLFyf gsfi\" jsaction=\"paste:puy29d;\" maxlength=\"2048\" name=\"q\" type=\"text\" aria-autocomplete=\"both\" aria-haspopup=\"false\" autocapitalize=\"off\" autocomplete=\"off\" autocorrect=\"off\" autofocus=\"\" role=\"combobox\" spellcheck=\"false\" title=\"Search\" value=\"\" aria-label=\"Search\" data-ved=\"0ahUKEwijpvSTpK30AhUJ3hoKHVP9CycQ39UDCAY\">`\n\nis being covered by another element:\n\n`<li class=\"gowsYd DdTYud\">Measure...</li>`\n\nFix this problem, or use {force: true} to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with",
+                "estack": "CypressError: Timed out retrying after 4000ms: `cy.type()` failed because this element:\n\n`<input class=\"gLFyf gsfi\" jsaction=\"paste:puy29d;\" maxlength=\"2048\" name=\"q\" type=\"text\" aria-autocomplete=\"both\" aria-haspopup=\"false\" autocapitalize=\"off\" autocomplete=\"off\" autocorrect=\"off\" autofocus=\"\" role=\"combobox\" spellcheck=\"false\" title=\"Search\" value=\"\" aria-label=\"Search\" data-ved=\"0ahUKEwijpvSTpK30AhUJ3hoKHVP9CycQ39UDCAY\">`\n\nis being covered by another element:\n\n`<li class=\"gowsYd DdTYud\">Measure...</li>`\n\nFix this problem, or use {force: true} to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with\n    at $Cy.ensureDescendents (https://www.google.com/__cypress/runner/cypress_runner.js:162833:87)\n    at ensureDescendents (https://www.google.com/__cypress/runner/cypress_runner.js:149605:8)\n    at ensureDescendentsAndScroll (https://www.google.com/__cypress/runner/cypress_runner.js:149612:14)\n    at ensureElIsNotCovered (https://www.google.com/__cypress/runner/cypress_runner.js:149746:5)\n    at runAllChecks (https://www.google.com/__cypress/runner/cypress_runner.js:149936:52)\n    at retryActionability (https://www.google.com/__cypress/runner/cypress_runner.js:149960:16)\n    at tryCatcher (https://www.google.com/__cypress/runner/cypress_runner.js:13212:23)\n    at Function.Promise.attempt.Promise.try (https://www.google.com/__cypress/runner/cypress_runner.js:10486:29)\n    at tryFn (https://www.google.com/__cypress/runner/cypress_runner.js:167495:61)\n    at whenStable (https://www.google.com/__cypress/runner/cypress_runner.js:167534:14)\n    at https://www.google.com/__cypress/runner/cypress_runner.js:167021:18\n    at tryCatcher (https://www.google.com/__cypress/runner/cypress_runner.js:13212:23)\n    at Promise._settlePromiseFromHandler (https://www.google.com/__cypress/runner/cypress_runner.js:11147:31)\n    at Promise._settlePromise (https://www.google.com/__cypress/runner/cypress_runner.js:11204:18)\n    at Promise._settlePromise0 (https://www.google.com/__cypress/runner/cypress_runner.js:11249:10)\n    at Promise._settlePromises (https://www.google.com/__cypress/runner/cypress_runner.js:11329:18)\nFrom Your Spec Code:\n    at Context.eval (https://www.google.com/__cypress/tests?p=cypress/integration/Test.spec.js:103:22)",
+                "diff": null
+              },
+              "uuid": "704616f0-daa8-4baf-9ed7-edb6b718f21b",
+              "parentUUID": "9558d46f-26fa-463f-b7bd-c75eacb2778a",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "704616f0-daa8-4baf-9ed7-edb6b718f21b"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 4817,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}
