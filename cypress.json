@@ -1,12 +1,12 @@
 {
     "video": false,
-        "screenshotOnRunFailure": false,
+    "screenshotOnRunFailure": false,
     "env": {
         "QA": "https://www.google.com",
         "SIT": "https://www.yahoo.com"
     },
-    "reporter": "cypress-multi-reporters",
+    "reporter": "junit",
     "reporterOptions": {
-        "configFile": "reporter-config.json"
+        "mochaFile": "results/my-test-output-[hash].xml"
     }
 }
